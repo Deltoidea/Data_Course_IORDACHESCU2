@@ -1,0 +1,5 @@
+./
+./infofile.txt
+./Gen_info.txt
+./Dumb_Responses.txt
+./Obsessive_girfriend
