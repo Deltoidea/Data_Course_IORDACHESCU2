@@ -1,4 +1,4 @@
-###########################
+  ###########################
 #                         #
 #    Assignment Week 3    #
 #                         # 
@@ -22,6 +22,8 @@
 1:10 # ':' only works for integers
 letters # built-in pre-made vector of a - z
 
+class(1L)
+class(333.3L)
 
 
 vector1 <- c(1,2,3,4,5,6,7,8,9,10)
@@ -34,6 +36,9 @@ vector1*vector2
 
 vector3 + 1 # can't add 1 to "a"
 
+x <- 3
+y <- 5
+
 
 
 # Data Frames ####
@@ -43,6 +48,7 @@ data("iris") # load it like this
 # For built-in data, there's often a 'help file'
 ?iris
 
+View(iris)
 # "Iris" is a 'data frame.' 
 # Data frames are 2-dimensional (think Excel spreadsheet)
 # Rows and columns
@@ -63,6 +69,11 @@ dat$Sepal.Length
 # You can also use square brackets to get specific 1-D or 2-D subsets of a data frame (rows and/or columns)
 dat[1,1] # [Rows, Columns]
 dat[1:3,5]
+
+let <- c(1,3,5,7,9)
+letters[let]
+
+
 
 # Plotting ####
 
@@ -103,8 +114,11 @@ plot(nums_factor)
 plot(nums, main = "My Title", xlab = "My axis label", ylab = "My other axis label")
 
 
-?jpeg()
+?jpeg(file.name)
 
+jpeg(filename = "./exampleplot.jpeg")
+
+plot(nums, main = "My Title", xlab = "My axis label", ylab = "My other axis label")
 
 dev.off()
 
@@ -132,18 +146,20 @@ df1 # look at it...note column names are what we gave it.
 
 # Make a data frame from the first 20 rows of iris that has only Species and Sepal.Length columns
 # save it into an object called "dat3"
+library(tidyverse)
 
 
-
+df3 <- dat%>%head(20)%>%subset(,c(1,5))
 
 
 # WRITING OUT FILES FROM R ####
 ?write.csv()
 
+?write.csv(df3,file = "LASTNAME_first_file.csv")
 
 # Write your new object "dat3" to a file named "LASTNAME_first_file.csv" in your PERSONAL git repository
 
-
+write.csv(df3,file = "./IORDACHESCU_first_file.csv")
 
 
 ### for-loops in R ####
@@ -168,16 +184,20 @@ for(i in levels(dat$Species)){
 # YOUR REMAINING HOMEWORK ASSIGNMENT (Fill in with code) ####
 
 # 1.  Make a scatterplot of Sepal.Length vs Sepal.Width. See if you can get the points to be colored by "Species"
-
+ggplot(dat,aes(x=Sepal.Length,y=Sepal.Width,color=Species))+geom_point()+labs(title="Sepal Width vs Length",x="Sepal Length",y="Sepal Width")+theme_minimal()
 
 # 2.  Write the code to save it (with meaningful labels) as a jpeg file
+jpeg(filename ="./Sepal_LengthxWidth.jpeg" )
 
+ggplot(dat,aes(x=Sepal.Length,y=Sepal.Width,color=Species))+geom_point()+labs(title="Sepal Width vs Length",x="Sepal Length",y="Sepal Width")+theme_minimal()
 
+dev.off()
 # 3.  Subset the Iris data set to only include rows from the setosa and virginica Species
-
-
+df4<- dat%>%subset(dat$Species!="versicolor")
+#checking if I removed all of the Versicolor.
+unique(df4$Species)
 # 4.  Write code to save this new subset as a .csv file called setosa_and_virginica.csv
-
+write.csv(df4,file = "./setosa_and_virginica.csv")
 
 # 5.  Upload this R script (with all answers filled in and tasks completed) to canvas and GitHub
       # I should be able to run your R script and get all the plots created and saved, etc.

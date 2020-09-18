@@ -1,0 +1,17 @@
+1. The read.csv() function automatically reads character vectors as factors. On the other side of things it reads numeric vectors as such instead of factors or character vectors.
+
+2. The main difference is the separating character. For read.csv() the separating character is ",". In read.csv2() the separating character is ";".
+
+3. csv2() exists because in Europe and other locations, semicolons are used instead of commas when writing out tables of data. 
+
+4. Reading State as a character vector instead of a factor can be accomplished through the option of stringsAsFactors = FALSE within the read.csv() function.
+
+5. summary(df$Home.Value) would give the summary stats for only the Home.Value column.
+
+6. names(df)[4] outputs the name of the 4th colunm: Home.Value.
+
+7. When col=df$region, the points are color coded by the values in the region colunm. 
+
+
+
+
