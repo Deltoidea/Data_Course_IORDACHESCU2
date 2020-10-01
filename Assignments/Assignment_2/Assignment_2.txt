@@ -1,0 +1,12 @@
+1.wc -l ../../Data/data-shell/data/pdb/m*.pdb
+
+2. wc -l ../../Data/data-shell/data/pdb/m*.pdb>m_lines.txt
+
+3. cut -f 2 -d "," ../../Data/data-shell/data/animals.txt|sort|uniq>./unique_animals.txt
+
+4. cut -d , -f 5 ../../Data/BioLog_Plate_Data.csv|sort|uniq>./unique_C-substrates.txt
+
+5.  wc -l ../../Data/data-shell/data/*.txt|sort -n|tail -n 2|head -n 1
+
+6. find ../../Data/data-shell/many_files/ -type f -exec bash ../../Data/data-shell/scripts/sum_lines.sh {} \;> ./file_sums.txt
+
