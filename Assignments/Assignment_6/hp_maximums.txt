@@ -1,0 +1,2 @@
+"original_hp" "automatic_hp" "max200_hp"
+"1" 335 245 175
