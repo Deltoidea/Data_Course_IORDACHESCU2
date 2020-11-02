@@ -1,0 +1,48 @@
+---
+title: "First_markdown"
+author: "Iordachescu"
+date: "10/26/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+data("mtcars")
+library(modelr)
+library(tidyverse)
+```
+Here is a summary of mtcars.
+```{r}
+summary(mtcars)
+```
+
+
+
+
+
+
+
+
+
+Here is a plot of mpg as a function of hp.
+```{r,message=FALSE,fig.align='center',fig.width=3,fig.height=2}
+ggplot(mtcars,aes(x=hp,y=mpg))+geom_point()+geom_smooth(method = lm)
+```
+```{r}
+mod1 <- glm(data = mtcars,formula = mpg~hp)
+mod2 <- glm(data = mtcars,formula = mpg~poly(hp,2))
+```
+
+```{r}
+gather_predictions(mtcars,mod1,mod2)%>%
+  ggplot(aes(x=hp))
+```
+
+text
+
+# text
+
+## text
+
+
+
