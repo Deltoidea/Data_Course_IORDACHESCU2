@@ -1,0 +1,57 @@
+>KJ773509.1 Ficus aurea ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>MG946836.1 Ficus benghalensis ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit gene, partial cds; chloroplast
+>AF206767.1 Ficus sp. Soltis s.n. ribulose 1,5-bisphosphate carboxylase (rbcL) gene, partial cds; chloroplast gene for chloroplast product
+>KM360784.1 Ficus carica ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; plastid
+>MG946836.1 Ficus benghalensis ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit gene, partial cds; chloroplast
+>FJ976133.1 Ficus variegata ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>AM235033.1 Ficus cordata chloroplast partial rbcL gene for ribulose bisphosphate carboxylase large subunit, specimen voucher Goldblatt P. & Porter L. 12442 (NBG)
+>AF500350.1 Ficus benjamina ribulose-1,5-bisphosphate carboxylase large subunit (rbcL) gene, partial cds; chloroplast gene for chloroplast product
+>AF500352.1 Ficus pumila ribulose-1,5-bisphosphate carboxylase large subunit (rbcL) gene, partial cds; chloroplast gene for chloroplast product
+>KX640857.1 Ficus pertusa voucher PER032 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>HQ020326.1 Ficus deltoidea var. angustifolia ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>HQ020327.1 Ficus deltoidea var. bilobata ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>HQ020328.1 Ficus deltoidea var. deltoidea ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>JF317485.1 Ficus tikoua ribulose-1,5-bisphosphate carboxylase large subunit (rbcL) gene, partial cds; chloroplast
+>FJ026615.1 Opuntia ficus-indica voucher NCNPR 2888 Atpb-like (atpB) gene, partial sequence; atp-rbcL intergenic spacer, complete sequence; and ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit-like (rbcL) gene, partial sequence; chloroplast
+>KU895839.1 Ficus palmata ecotype 11 atpB-rbcL intergenic spacer, partial sequence; and ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Rbcl) gene, partial cds; chloroplast
+>AJ390067.1 Ficus pretoriae chloroplast partial rbcL gene
+>AB445613.1 Ficus insipida chloroplast gene for atpB-rbcL spacer (C9), isolate: No. 133
+>AB445599.1 Ficus benguetensis chloroplast gene for atpB-rbcL spacer (C9), isolate: No. 115
+>AB445601.1 Ficus septica chloroplast gene for atpB-rbcL spacer (C9), isolate: No. 29
+>GQ504323.1 Ficus burtt-davyi isolate Fsp106 atpB-rbcL intergenic spacer, partial sequence; chloroplast
+>KF724292.1 Ficus citrifolia voucher Atha 704 (NY) ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; plastid
+>JQ773806.1 Ficus virens voucher 2010028 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>KM895497.1 Ficus watkinsiana voucher 1076418213 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>AF500348.1 Castilla elastica ribulose-1,5-bisphosphate carboxylase large subunit (rbcL) gene, partial cds; chloroplast gene for chloroplast product
+>KJ773509.1 Ficus aurea ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>MG946836.1 Ficus benghalensis ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit gene, partial cds; chloroplast
+>AF206767.1 Ficus sp. Soltis s.n. ribulose 1,5-bisphosphate carboxylase (rbcL) gene, partial cds; chloroplast gene for chloroplast product
+>KM360784.1 Ficus carica ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; plastid
+>MG946836.1 Ficus benghalensis ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit gene, partial cds; chloroplast
+>FJ976133.1 Ficus variegata ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>AM235033.1 Ficus cordata chloroplast partial rbcL gene for ribulose bisphosphate carboxylase large subunit, specimen voucher Goldblatt P. & Porter L. 12442 (NBG)
+>AF500350.1 Ficus benjamina ribulose-1,5-bisphosphate carboxylase large subunit (rbcL) gene, partial cds; chloroplast gene for chloroplast product
+>AF500352.1 Ficus pumila ribulose-1,5-bisphosphate carboxylase large subunit (rbcL) gene, partial cds; chloroplast gene for chloroplast product
+>KX640857.1 Ficus pertusa voucher PER032 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>HQ020326.1 Ficus deltoidea var. angustifolia ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>HQ020327.1 Ficus deltoidea var. bilobata ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>HQ020328.1 Ficus deltoidea var. deltoidea ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>JF317485.1 Ficus tikoua ribulose-1,5-bisphosphate carboxylase large subunit (rbcL) gene, partial cds; chloroplast
+>FJ026615.1 Opuntia ficus-indica voucher NCNPR 2888 Atpb-like (atpB) gene, partial sequence; atp-rbcL intergenic spacer, complete sequence; and ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit-like (rbcL) gene, partial sequence; chloroplast
+>KU895839.1 Ficus palmata ecotype 11 atpB-rbcL intergenic spacer, partial sequence; and ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Rbcl) gene, partial cds; chloroplast
+>AJ390067.1 Ficus pretoriae chloroplast partial rbcL gene
+>AB445613.1 Ficus insipida chloroplast gene for atpB-rbcL spacer (C9), isolate: No. 133
+>AB445599.1 Ficus benguetensis chloroplast gene for atpB-rbcL spacer (C9), isolate: No. 115
+>AB445601.1 Ficus septica chloroplast gene for atpB-rbcL spacer (C9), isolate: No. 29
+>GQ504323.1 Ficus burtt-davyi isolate Fsp106 atpB-rbcL intergenic spacer, partial sequence; chloroplast
+>KF724292.1 Ficus citrifolia voucher Atha 704 (NY) ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; plastid
+>JQ773806.1 Ficus virens voucher 2010028 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>KM895497.1 Ficus watkinsiana voucher 1076418213 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>AF500348.1 Castilla elastica ribulose-1,5-bisphosphate carboxylase large subunit (rbcL) gene, partial cds; chloroplast gene for chloroplast product
+>JQ773784.1 Ficus tinctoria subsp. swinhoei voucher 2010224 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>GQ504365.1 Ficus macrophylla isolate Fsp019 atpB-rbcL intergenic spacer, partial sequence; chloroplast
+>JQ773645.1 Ficus altissima voucher 2010124 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>GQ504333.1 Ficus craterostoma isolate Fsp172 atpB-rbcL intergenic spacer, partial sequence; chloroplast
+>MN102667.1 Ficus retusa voucher FR-13 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>KP088599.1 Ficus religiosa voucher BOP010493 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast
+>JQ773672.1 Ficus elastica voucher 2010223 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast

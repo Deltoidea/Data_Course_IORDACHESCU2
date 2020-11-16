@@ -1,0 +1,244 @@
+Species,Location,Strangler,fasta_id,
+Ficus_aurea, N.America,TRUE,">KJ773509.1 Ficus aurea ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_benghalensis,India,TRUE,">MG946836.1:40-650 Ficus benghalensis ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit gene, partial cds; chloroplast",
+Ficus_cordata_subsp._salicifolia, Africa,FALSE,">KR529316.1:8-618 Ficus semicordata isolate BB0285 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_carica,Europe,FALSE,">JQ773660.1:41-651 Ficus carica voucher 2009100 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_benjamina, Australia,FALSE,">MN098996.1:41-651 Ficus benjamina voucher FC-01 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_pumila, Southeast Asia,FALSE,">HM850005.1:18-628 Ficus pumila ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_pertusa, S.America,FALSE,">KX640857.1 Ficus pertusa voucher PER032 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_tikoua, Southeast Asia,FALSE,">JF317485.1 Ficus tikoua ribulose-1,5-bisphosphate carboxylase large subunit (rbcL) gene, partial cds; chloroplast",
+,,,,
+Ficus_palmata, Middle East,FALSE,">KY794574.1:10-620 Ficus palmata voucher R170 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcl) gene, partial cds; chloroplast",
+Ficus_insipida,S.America,FALSE,">KU856491.1 Ficus insipida voucher PCR6249 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_insipida,S.America,FALSE,">GQ504383.1 Ficus insipida isolate Fsp040 atpB-rbcL intergenic spacer, partial sequence; chloroplast",
+Ficus_insipida,S.America,FALSE,">AB445613.1 Ficus insipida chloroplast gene for atpB-rbcL spacer (C9), isolate: No. 133",
+Ficus_benguetensis, Pacific Islands,FALSE,">JQ773649.1:41-651 Ficus benguetensis voucher 2010232 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_septica, Pacific Islands,FALSE,">JQ773763.1:41-651 Ficus septica voucher 2010236 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_burtt-davyi, Africa,TRUE,">GQ504323.1 Ficus burtt-davyi isolate Fsp106 atpB-rbcL intergenic spacer, partial sequence; chloroplast",
+Ficus_citrifolia, C.America,TRUE,">KF724292.1 Ficus citrifolia voucher Atha 704 (NY) ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; plastid",
+Ficus_citrifolia, C.America,TRUE,">MH549857.1 Ficus citrifolia voucher Trotta950216 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_virens, India,TRUE,">JQ773809.1:41-651 Ficus virens voucher 2010350 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_virens, India,TRUE,">MN102668.1:25-635 Ficus virens voucher FV-04 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_virens, India,TRUE,">MN098998.1:21-631 Ficus virens voucher FG-06 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_tinctoria, Southeast Asia,TRUE,">JQ773784.1 Ficus tinctoria subsp. swinhoei voucher 2010224 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_tinctoria, Southeast Asia,TRUE,">JQ773785.1 Ficus tinctoria subsp. swinhoei voucher 2010237 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_macrophylla, Australia,TRUE,">GQ504365.1 Ficus macrophylla isolate Fsp019 atpB-rbcL intergenic spacer, partial sequence; chloroplast",
+Ficus_macrophylla, Australia,TRUE,">JX571836.1 Ficus macrophylla voucher Hosam00150 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_altissima, Southeast Asia,FALSE,">KR529260.1:1-611 Ficus altissima isolate BB0770 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_altissima, Southeast Asia,FALSE,">KR529259.1:8-618 Ficus altissima isolate BB0302 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_altissima, Southeast Asia,FALSE,">JQ773645.1:41-651 Ficus altissima voucher 2010124 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_craterostoma, Africa,TRUE,">GQ504333.1 Ficus craterostoma isolate Fsp172 atpB-rbcL intergenic spacer, partial sequence; chloroplast",
+Ficus_craterostoma, Africa,TRUE,">GQ504373.1 Ficus craterostoma isolate Fsp029 atpB-rbcL intergenic spacer, partial sequence; chloroplast",
+Ficus_retusa,  Southeast Asia,FALSE,">MN102667.1:35-645 Ficus retusa voucher FR-13 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_religiosa,Southeast Asia,FALSE,">KY416513.1:58970-59580 Ficus religiosa voucher Ronsted86 chloroplast, complete genome",
+Ficus_elastica,Southeast Asia,FALSE,">MN098997.1:47-657 Ficus elastica voucher FE-17 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_fistulosa,Southeast Asia,FALSE,">MH358081.1:44-654 Ficus fistulosa isolate Z3920 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_fistulosa,Southeast Asia,FALSE,">JQ773680.1:41-651 Ficus fistulosa voucher 2010115 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_racemosa, indo-china,FALSE,">MN102663.1:52-662 Ficus racemosa voucher FR-01 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_racemosa, indo-china,FALSE,">KT368151.1:58324-58934 Ficus racemosa chloroplast, complete genome",
+Ficus_pandurata, Africa,FALSE,">JQ773722.1 Ficus pandurata voucher 2009185 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_variolosa, indo-china,FALSE,">KJ440017.1:37-647 Ficus variolosa ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_variolosa, indo-china,FALSE,">JQ773799.1:41-651 Ficus variolosa voucher 2010074 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_nervosa,Indochina,FALSE,">KP752397.1 Ficus nervosa ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_cyrtophylla, Indochina,FALSE,">MH358080.1:44-654 Ficus cyrtophylla isolate C0722 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Ficus_cyrtophylla, Indochina,FALSE,">KR529273.1:6-616 Ficus cyrtophylla isolate G082 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+Castilla_elastica, N.America ,FALSE,">AF500348.1 Castilla elastica ribulose-1,5-bisphosphate carboxylase large subunit (rbcL) gene, partial cds; chloroplast ",
+Ficus_microcarpa,Indochina,FALSE,">FJ976132.1 Ficus microcarpa ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,">MN099002.1:11-621 Ficus microcarpa voucher FM-15 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">MN099001.1:14-624 Ficus sp. 'Long Island' voucher FLM-12 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,
+,,,,">MN098995.1:22-632 Ficus benjamina voucher FBN-02 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">MN364706.1:58654-59264 Ficus hirta chloroplast, complete genome"
+,,,,">MH358083.1:44-654 Ficus glaberrima isolate C0630 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,
+,,,,
+,,,,">MH358079.1:44-654 Ficus concinna isolate Z3804 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">MH332473.1:10-620 Ficus variegata Blume, 1825 voucher gp-418 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">MH332468.1:10-620 Ficus sp. gp-412 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">MH332464.1:10-620 Ficus vasculosa voucher gp-407 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">MG946836.1:40-650 Ficus benghalensis ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit gene, partial cds; chloroplast"
+,,,,">MG946835.1:34-644 Ficus benghalensis ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit gene, partial cds; chloroplast"
+,,,,">MF435689.1:35-645 Ficus sp. JH-2017 voucher UBDH:06-5359 ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">MF435688.1:35-645 Ficus sp. JH-2017 voucher UBDH:24-0532 ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">MF435687.1:35-645 Ficus sp. JH-2017 voucher UBDH:24-5817 ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">MF435686.1:35-645 Ficus sp. JH-2017 voucher UBDH:11-4084 ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">MF435682.1:35-645 Ficus sp. JH-2017 voucher UBDH:08-6436 ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">MF435681.1:35-645 Ficus sp. JH-2017 voucher UBDH:08-5664 ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,
+,,,,
+,,,,
+,,,,">KR529264.1:22-632 Ficus auriculata isolate G136 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,
+,,,,
+,,,,
+,,,,">JQ773822.1:16-626 Ficus pumila voucher 2010316 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JQ773819.1:16-626 Ficus heteropleura voucher 2010284 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JQ773817.1:16-626 Ficus hirta voucher 2010067 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JQ773816.1:34-644 Ficus heteropleura voucher 2010287 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JQ773815.1:34-644 Ficus langkokensis voucher 2009412 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,
+,,,,
+,,,,">JQ773781.1:41-651 Ficus subulata voucher 2010118 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JQ773773.1:41-651 Ficus subincisa voucher GBOWS596 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,
+,,,,">JQ773755.1:41-651 Ficus sarmentosa var. henryi voucher 200962 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JQ773721.1:41-651 Ficus orthoneura voucher 2010109 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JQ773697.1:41-651 Ficus irisana voucher 2010230 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JQ773694.1:41-651 Ficus hispida voucher 2010270 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JQ773685.1:41-651 Ficus fulva voucher GBOWS1448 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,
+,,,,
+,,,,">JQ773677.1:41-651 Ficus erecta voucher 2009347 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,
+,,,,">JQ773657.1:41-651 Ficus cardiophylla voucher 2009311 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JQ773650.1:41-651 Ficus benjamina voucher 2009323 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JQ773647.1:41-651 Ficus auriculata voucher 2010083 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,
+,,,,">JQ773644.1:41-651 Ficus abelii voucher 2010035 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JN407318.1:16-626 Ficus microcarpa isolate shawpc0690L ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JN407317.1:16-626 Ficus microcarpa isolate shawpc0687L ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JN407316.1:35-645 Ficus microcarpa isolate shawpc0576L ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JN407315.1:15-625 Ficus microcarpa isolate shawpc0557L ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">HQ020329.1:4-614 Ficus deltoidea var. intermedia ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">HM850005.1:18-628 Ficus pumila ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">AB586429.1:17-627 Ficus sp. SH-2010 chloroplast gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, partial cds, isolate: T965"
+,,,,">AB586427.1:4-614 Ficus sp. SH-2010 chloroplast gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, partial cds, isolate: T926"
+,,,,">AB586426.1:6-616 Ficus sp. SH-2010 chloroplast gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, partial cds, isolate: T837"
+,,,,">AB586416.1:6-616 Ficus sp. SH-2010 chloroplast gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, partial cds, isolate: T092"
+,,,,">AB586415.1:6-616 Ficus sp. SH-2010 chloroplast gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, partial cds, isolate: A288"
+,,,,">FJ976133.1:35-645 Ficus variegata ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">EU213483.1:39-649 Ficus sycomorus voucher RL1614 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">EU213481.1:43-653 Ficus sycomorus voucher RBN197 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">EU213480.1:41-651 Ficus glumosa voucher RL1429 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">EU213477.1:43-653 Ficus abutilifolia voucher OM557 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">EU213476.1:41-651 Ficus abutilifolia voucher RL1501 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">EU213475.1:24-634 Ficus abutilifolia voucher RL1471 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">EU002278.1:61-671 Ficus sp. Moore 315 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloroplast"
+,,,,">AF500352.1:28-638 Ficus pumila ribulose-1,5-bisphosphate carboxylase large subunit (rbcL) gene, partial cds; chloroplast gene for chloroplast product"
+,,,,">AF500350.1:28-638 Ficus benjamina ribulose-1,5-bisphosphate carboxylase large subunit (rbcL) gene, partial cds; chloroplast gene for chloroplast product"
+,,,,">JX856703.1:1-610 Ficus benghalensis isolate 122 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">KR529299.1:1-609 Ficus hispida isolate BB0921 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">MN102670.1:46-656 Ficus carica voucher K2-04 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">MN102669.1:22-632 Ficus benghalensis voucher K1-01 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,
+,,,,">MN098999.1:36-646 Ficus sp. 'Long Island' voucher FL-03 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,
+,,,,
+,,,,">MN098994.1:38-648 Ficus benjamina voucher FBb-10 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">MH332423.1:10-620 Ficus midotis voucher gp-307 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">MH332400.1:10-620 Ficus hirta voucher gp-17 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">MH332390.1:10-620 Ficus deltoidea voucher gp-107 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,
+,,,,">MF435683.1:35-645 Ficus sp. JH-2017 voucher UBDH:11-4096 ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">KY635880.1:58900-59510 Ficus carica chloroplast, complete genome"
+,,,,
+,,,,">KR529315.1:8-618 Ficus sagittata isolate BB0305 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">KR529306.1:4-614 Ficus lacor isolate BB0773 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">KR529289.1:22-632 Ficus fulva isolate J310 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">KM360784.1:41-651 Ficus carica ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; plastid"
+,,,,">KC584880.1:61-671 Ficus carica ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JQ773821.1:16-626 Ficus formosana voucher 200991 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
+,,,,">JQ773818.1:16-626 Ficus squamosa voucher 2010085 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast"
