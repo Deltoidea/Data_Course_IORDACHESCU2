@@ -1,0 +1,8 @@
+Key `Pr(>|t|)`=P.Value
+                                           Estimate Std. Error   t value     Pr(>|t|)
+Oil_typealpha-cedrene                  7.881098  1.9311625  4.081012 4.974358e-05
+Oil_typecedr-8-en-13-ol                7.619740  1.9311625  3.945675 8.719396e-05
+Oil_typecedrol                        22.548238  1.9311625 11.675992 5.116814e-29
+Oil_typecis-thujopsene                17.277800  1.9311625  8.946839 2.933266e-18
+Oil_typewiddrol                        5.815874  1.9311625  3.011592 2.687792e-03
+Oil_typecis-thujopsene:YearsSinceBurn  0.331832  0.1411097  2.351590 1.895608e-02
