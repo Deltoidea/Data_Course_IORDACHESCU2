@@ -56,9 +56,10 @@ ggsave("./IORDACHESCU_Fig_2.jpg")
 
 #Task V
 modtree <- glm(formula = Concentration~Oil_type*YearsSinceBurn,data = df1long)
+modtree%>%tidy()
 results_df <- summary(modtree)$coefficients
-results_df%>%as.data.frame(colnames=TRUE)%>%filter(`Pr(>|t|)`<=.05)
-
+tbl <- results_df%>%as.data.frame(colnames=TRUE)%>%filter(`Pr(>|t|)`<=.05)%>%tidy()
+kableExtra::kable(tbl)
 sink("./Significant_Chemicals.txt")
 cat("Key `Pr(>|t|)`=P.Value
     ")
