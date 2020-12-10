@@ -11,126 +11,66 @@ library(purrr)
 library(broom)
 
 
-#testing ####
-# function needs a string pointing to fasta file
-# aligns and build parsimony tree from that fasta
 
 
 
-build_tree <- function(x){
-  
-  library(tidyverse)
-  library(ShortRead)
-  library(msa)
-  library(phangorn)
-  library(ggtree)
-  library(purrr)
-  
-  fa <- readDNAStringSet(x)
-  
-  # do muscle alignment
-  alignment <- msa(fa)
-  
-  #change tip labels
-  alignment@unmasked@ranges@NAMES <- 
-    paste(alignment@unmasked@ranges@NAMES %>% str_split(pattern = " ") %>% map_chr(2),
-          alignment@unmasked@ranges@NAMES %>% str_split(pattern = " ") %>% map_chr(3),
-          sep = "_")
-  
-  # convert to phydat format
-  alignment_phydat <- as.phyDat(alignment)
-  
-  # distance matrix
-  dm  <- dist.ml(alignment_phydat)
-  
-  treeNJ  <- NJ(dm)
-  plot(treeNJ)
-  
-  
-  
-  tree <- pratchet(alignment_phydat)
-  tree <- nnls.phylo(tree, dm)
-  
-  return(tree)
-}
-# ####
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#Read in the sequences ####
 
 #turn the fasta file into a dnaStringset
-df <- readDNAStringSet("./seq_match_ficus_metadata.fas", format="fasta",
-                 nrec=-1L, skip=0L, seek.first.rec=FALSE, use.names=TRUE)
-df
+df <- readDNAStringSet("./fasta_ficus/combined_rbclmatk_aligned.fas", format="fasta",
+                       nrec=-1L, skip=0L, seek.first.rec=FALSE, use.names=TRUE)
+
+?readDNAStringSet
+class(df)
+as.MultipleAlignment(df)
+?as.MultipleAlignment(df)
 #align sequences
 
-alignment <- msaClustalOmega(inputSeqs = df,gapOpening = 400,gapExtension = 1,maxiters = 20,
-          type = "dna")
-#save alignment to file for use in markdown
-saveRDS(file = "./output/alignment",alignment)
+alignment <- msaMuscle(inputSeqs = df,gapOpening = 400,gapExtension = 1,maxiters = 20,
+                       type = "dna")
+as.M
 
-  
-#add metadata
 meta <- read_csv(file = "./ficus_metadata.csv")
-meta
-##change names in alignment ####
-alignment <- read_rds("./output/alignment")
+meta$fasta_id <- str_remove(meta$fasta_id,">")
+one <- meta%>%select(fasta_id)
 
 alignment@unmasked@ranges@NAMES <- 
-  paste(alignment@unmasked@ranges@NAMES %>% str_split(pattern = " ") %>% map_chr(2),
+  paste(alignment@unmasked@ranges@NAMES %>% str_split(pattern = " ") %>% 
+          map_chr(1),alignment@unmasked@ranges@NAMES %>% str_split(pattern = " ") 
+        %>% map_chr(2),
         alignment@unmasked@ranges@NAMES %>% str_split(pattern = " ") %>% map_chr(3),
         sep = "_")
+str(alignment)
+one <- meta%>%select(fasta_id)
+one <- as.vector(one)
+two <- alignment@unmasked@ranges@NAMES%>%as.character()%>%sort()
+three <- cbind(sort(one),sort(two))
+three <- data.frame(sort(one),sort(two))
 
-unique(alignment@unmasked@ranges@NAMES)
+sortednames <- alignment@unmasked@ranges@NAMES%>%sort()
+alignment@unmasked@ranges@NAMES%>%sort() <- meta$fasta_id%>%sort()
+alignment@unmasked@ranges@NAMES%>%unique()
+meta%>%order()
 
 
 #write the alignment to a phyDat file
+
 df_phydat <- as.phyDat(x = alignment)
 
-
+unique(df_phydat)
 #prepare alignment for Phangorn
-write.phyDat(x = df_phydat,file = "./alignedficus.dna",format = "fasta")
-
 read.phyDat("./alignedficus.dna",format = "fasta",type = "DNA")
-
+write.phyDat(x = df_phydat,file = "./alignedficus.dna",format = "fasta")
 phydat <- read.phyDat( "./alignedficus.dna",format = "fasta")
 
 
 #build distance alignment
-dm  <- dist.ml(phydat);dm
+da <- dist.alignment(alignment)
 # Build some trees from the alignment
 
+fdir <- system.file("./extdata/trees", package = "phangorn")
+par(mar=c(.1,.1,.1,.1))
 
-
+dm  <- dist.ml(phydat);dm
 #create some trees
 treeUPGMA  <- upgma(dm)
 treeNJ  <- NJ(dm);treeNJ
@@ -141,27 +81,15 @@ parsimony(treeUPGMA, phydat)
 
 parsimony(treeNJ, phydat)
 
-class(treeNJ)
-
-ggtree(treeNJ,)
-
 #optimum model
 mt <- modelTest(phydat);print(mt)
-#save model test as rds object
-saveRDS(mt,file = "./output/modeltest_object")
-readRDS("./output/modeltest_object")
 
-mt[which(mt$AIC<=9580),1]
 bestAICmod <- mt[which(mt$AIC==min(mt$AIC)),1]
-str_split()
-
 #moving into maximum likelihood. 
-fit <- pml(treeNJ, phydat)
+fit <- pml(treeUPGMA, phydat)
 fitHKY <- optim.pml(fit, model = bestAICmod, rearrangement = "ratchet",)
 class(fitHKY)
 bootstrap <- bootstrap.pml(fitHKY, bs=100, optNni=TRUE, multicore=TRUE, control = pml.control(trace=0))
-saveRDS(bootstrap,file = "./output/bootstrap_object")
-
 plotBS(midpoint(fitHKY$tree),bootstrap,p=10,type = "p",)
 
 
@@ -197,3 +125,13 @@ meta <- read_csv(file = "./ficus_metadata.csv")
 meta
 
 #
+
+
+
+
+
+
+
+
+
+
