@@ -5,26 +5,125 @@ date: "12/10/2020"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+
+
+![Ficus religiosa](./images/20200419_183209(1).jpg)
+
+
+# Ficus Diversity
+
+All ficus belong to a the extremely diverse group of Moraceae. Its member species are utilized for their fruit as well as for ease of indoor cultivation (I personally keep 6 species for their aesthetic value). With over 800 species in the genus, Ficus species come in all kind of shapes and sizes. One trait that is relatively unique to ficus is the growth pattern of strangling another tree. Some ficus start their lives, deposited in the canopy of another tree by bird droppings, as epiphites. In the humid environment of the tropics, the plant is able to put out roots that reach from the canopy to the ground. After reaching the ground, they thicken, and over a period of years engulf the tree that was once its home. It can even kill the tree as it surrounds it in a prison of growing roots. 
+
+![deadficusleaves](./images/20201212_181247.jpg){#id .class width=50% height=50%}
+
+## Project Goals
+
+The purpose of this project is to gain insight into the the strangling habit of the ficus genus by taking a look at genetic as well as geographic data. 
+
+```{r,echo=FALSE,message=FALSE}
+library(tidyverse)
+library(phangorn)
+library(ape)
+library(seqinr)
+library(beepr)
+library(msa)
+library(ShortRead)
+library(phytools)
+library(ggtree)
+library(purrr)
+library(broom)
+library(ggrepel)
+```
+```{r,echo=FALSE,message=FALSE,comment=FALSE}
+df <- readDNAStringSet("./seq_match_ficus_metadata.fas", format="fasta",
+                 nrec=-1L, skip=0L, seek.first.rec=FALSE, use.names=TRUE)
+#align sequences
+#alignment <- msaClustalOmega(inputSeqs = df,gapOpening = 400,gapExtension = 1,maxiters = 20, type = "dna")
+#save alignment to file for use in markdown
+alignment <- readRDS("./output/alignment")
+#add metadata
+meta <- read_csv(file = "./ficus_metadata.csv")
+##change names in alignment ####
+alignment@unmasked@ranges@NAMES <- 
+  paste(alignment@unmasked@ranges@NAMES %>% str_split(pattern = " ") %>% map_chr(2),
+        alignment@unmasked@ranges@NAMES %>% str_split(pattern = " ") %>% map_chr(3),
+        sep = "_")
+#write the alignment to a phyDat file
+df_phydat <- as.phyDat(x = alignment)
+phydat <- read.phyDat( "./alignedficus.dna",format = "fasta")
+
+
+#build distance alignment
+dm  <- dist.ml(phydat)
+
+
+#create some trees
+treeUPGMA  <- upgma(dm)
+treeNJ  <- NJ(dm)
+
+
+
+
+
+mt <- readRDS("./output/modeltest_object")
+fit <- pml(treeNJ, phydat)
+fitHKY <- readRDS("./output/fitHKY")
+bootstrap <- readRDS(file = "./output/bootstrap_object")
+bootstraptr <- plotBS(tree = treeNJ,BStrees = bootstrap,p = 100)
+rr.castilla <- root(bootstraptr,node = 68)
+
 ```
 
-## R Markdown
+## The Data
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+I started with around 120 sequences of various ficus species from  which I narrowed down to 44 based on availability of the metadata. At this point, lets get it aligned and visualized.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
+## Alignment
+
+The sequences were aligned using clustal with a gap opening penalty of 400 and a gap extension penalty of 1 taking the best score of 20 iterations. 
+
+Lets do some visualization of this alignment:
+
+![MSA Plot](./output/msatree.png){#id .class width=100% height=100%}
+With a quick look at the above data, it is clear that there are 6 sequences that overlap very little with the rest of the data. Additionally, there are two sequences that have no detected overlap. I will remove these sequences and test the relationships again. 
+
+![MSA Plot 2](./output/msatree.2.png){#id .class width=100% height=100%}
+
+Much better.
+
+## Selecting a Tree
+Here are the parsimony scores for UPGMA and neighbor joining trees in that order.
+```{r echo=TRUE, message=FALSE, comment=FALSE, r,echo=FALSE}
+parsimony(treeUPGMA, phydat)
+parsimony(treeNJ, phydat)
+```
+Looks like neighbor joining is ever so slightly more parsimonious compared to UPGMA. 
+
+## Final Adjustments:
+
+#### Rooting
++The tree is rooted to Castilla elastica as it is a closely related outgroup.
+
+
+## The Tree of trees(and small shrubs)
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+p1 <- ggtree(rr.castilla,branch.length = "none",nodelabels=T,)
+p1 %<+% meta + geom_tippoint(aes(color = Strangler))+ 
+  geom_tiplab(aes(fill =Location),
+              size = 2,
+              offset = .5,
+              color = "black", # color for label font
+              geom = "label",  # labels not text
+              label.padding = unit(0.15, "lines"), # amount of padding around the labels
+              label.size = 0) +# size of label border
+  theme_tree() # no keys
 ```
 
-## Including Plots
+This 
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
