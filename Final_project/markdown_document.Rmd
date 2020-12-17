@@ -117,11 +117,34 @@ p1 %<+% meta + geom_tippoint(aes(color = Strangler))+
               color = "black", # color for label font
               geom = "label",  # labels not text
               label.padding = unit(0.15, "lines"), # amount of padding around the labels
-              label.size = 0) +# size of label border
-  theme_tree() # no keys
+              label.size = 0) +
+  labs(title = "Ficus Phylogeny",subtitle = "Tippoints colored by strangler habit. Labels colored by geographic location")+# size of label border
+  theme_tree()+coord_cartesian() # no keys
 ```
 
-This 
+## Conclusions
+
+There are a few factors to consider when looking at this graph. Ficus species are peculiar in their general mode of pollination. As a general rule they cannot be pollinated by just any insect. Most species of ficus have coevolved with minuscule fig wasps that pollinate their figs. This would restrict the spread of ficus species to inside the range of their pollinators. The age of the genus(sometime in the Cretaceous period) may also play a role as it is quite old and the extinction rate is low. This supports the museum model of diversity which I believe might support several origins of the strangling habit. 
+Looking at the generated phylogeny, it seems clear that within this dataset, there are three distinct group of stranger figs. Starting at the top, of the tree, there is a group from India, followed by a group from Southeast Asia, and finally a less neatly defined group from the Americas(Central and North) and Australia. While Southeast Asia and India are relatively nearby, the phylogenetic tree does reinforce the the three way divide. It would appear that the strangling habit has evolved three distinct times.
+
+
+
+## Future Work
+
+If I was to revisit this project, the two main things that I would want to improve upon would making the phylogeny a multigene phylogeny and to increase the sample size. with only the rbcl gene to go off of, there is a lot of uncertainty in the phylogenetic trees produced. Getting the bootstrap values lower would be ideal. Increasing the sample size would also provide more evidence for( or against), the patterns I found in the resulting phylogeny.
+
+
+
+---------
+
+
+## References:
+
+Bruun-Lund, Sam, Brecht Verstraete, Finn Kjellberg, and Nina Rønsted. 2018. “Rush Hour at the Museum – Diversification Patterns Provide New Clues for the Success of Figs (Ficus L., Moraceae).” Acta Oecologica 90: 4–11.
+Drude Molbo et al. 2003. “Cryptic Species of Fig-Pollinating Wasps: Implications for the Evolution of the Fig-Wasp Mutualism, Sex Allocation, and Precision of Adaptation.” Proceedings of the National Academy of Sciences of the United States of America 100(10): 5867.
+“Ficus | Description, Pollination, & Major Species.” Encyclopedia Britannica. https://www.britannica.com/plant/Ficus (April 18, 2020).
+Information, National Center for Biotechnology, U. S. National Library of Medicine 8600 Rockville Pike, Bethesda MD, and 20894 Usa. “National Center for Biotechnology Information.” https://www.ncbi.nlm.nih.gov/ (April 25, 2020).
+
 
 
 
