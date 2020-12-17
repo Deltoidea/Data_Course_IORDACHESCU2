@@ -34,7 +34,7 @@ library(purrr)
 library(broom)
 library(ggrepel)
 ```
-```{r,echo=FALSE,message=FALSE,comment=FALSE}
+```{r,echo=FALSE,message=FALSE,comment=FALSE, include=FALSE}
 df <- readDNAStringSet("./seq_match_ficus_metadata.fas", format="fasta",
                  nrec=-1L, skip=0L, seek.first.rec=FALSE, use.names=TRUE)
 #align sequences

@@ -100,7 +100,17 @@ bootstrap <- bootstrap.pml(fitHKY, bs=100, optNni=TRUE, multicore=TRUE, control 
 saveRDS(bootstrap,file = "./output/bootstrap_object")
 bootstrap <- readRDS(file = "./output/bootstrap_object")
 #plotBS(fitHKY[tree],BStrees = bootstrap,p=10,type = "p","rect")
-class(bootstrap)
+# class(bootstrap)
+# par(mfrow=c(2,1))> par(mar=c(1,1,3,1))
+# plotBS(midpoint(fitJC$tree), bootstraptr, p = 50, type="p")
+# title("a)")> cnet <- consensusNet(bs, p=0.2)
+# plot(cnet, "2D", show.edge.label=TRUE)
+# title("b)")
+
+
+
+
+
 ?pml
 bootstraptr <- plotBS(tree = treeNJ,BStrees = bootstrap,p = 100)
 rr.castilla <- root(bootstraptr,node = 68)
@@ -121,6 +131,9 @@ p1 %<+% meta + geom_tippoint(aes(color = Strangler))+
               label.padding = unit(0.15, "lines"), # amount of padding around the labels
               label.size = 0) +# size of label border
   theme_tree() # no keys
+plotTree.datamatrix(rr.castilla,meta)
+
+ggtree(rr.castilla,branch.length = "none")+geom_tiplab()+geom_nodepoint()
 
 plotTree(treeNJ,node.numbers=T,)+coord_polar()
 rr.73 <- root(treeNJ,node = 73)
